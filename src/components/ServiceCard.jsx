@@ -1,9 +1,31 @@
 import React from 'react';
-import * as Icons from '@phosphor-icons/react';
-import { CheckCircle } from '@phosphor-icons/react';
+import {
+  CheckCircle,
+  Wrench,
+  CurrencyDollar,
+  ShieldCheck,
+  Briefcase,
+  MapPin,
+  Trophy,
+  Target,
+  Eye,
+  Heart,
+} from '@phosphor-icons/react';
+
+const IconMap = {
+  Wrench,
+  CurrencyDollar,
+  ShieldCheck,
+  Briefcase,
+  MapPin,
+  Trophy,
+  Target,
+  Eye,
+  Heart,
+};
 
 export default function ServiceCard({ service, index = 0 }) {
-  const Icon = Icons[service.icon] || Icons.Wrench;
+  const Icon = IconMap[service.icon] || Wrench;
 
   return (
     <div className="group bg-white border border-silver-300 hover:border-toyota-500 transition-all duration-300 relative overflow-hidden">
