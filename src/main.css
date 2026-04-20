@@ -1,0 +1,181 @@
+@import "tailwindcss";
+
+@theme {
+  /* Toyota Red — signature */
+  --color-toyota-50: #FEF2F2;
+  --color-toyota-100: #FEE2E2;
+  --color-toyota-200: #FECACA;
+  --color-toyota-300: #FCA5A5;
+  --color-toyota-400: #F87171;
+  --color-toyota-500: #EB0A1E;
+  --color-toyota-600: #C20815;
+  --color-toyota-700: #9B0610;
+  --color-toyota-800: #740A0E;
+  --color-toyota-900: #4C0408;
+
+  /* Deep greys — Toyota Black / structural */
+  --color-graphite-50: #F7F7F8;
+  --color-graphite-100: #EDEDEF;
+  --color-graphite-200: #D6D6DB;
+  --color-graphite-300: #B3B3BA;
+  --color-graphite-400: #7E7E86;
+  --color-graphite-500: #56565C;
+  --color-graphite-600: #3A3A40;
+  --color-graphite-700: #29292D;
+  --color-graphite-800: #1F1F1F;
+  --color-graphite-900: #121214;
+
+  /* Cool white / silver */
+  --color-silver-50: #FFFFFF;
+  --color-silver-100: #FAFAFB;
+  --color-silver-200: #F2F3F5;
+  --color-silver-300: #E6E8EC;
+  --color-silver-400: #D1D4DA;
+
+  /* Sky-blue accent (subtle) */
+  --color-sky-accent: #0A84FF;
+  --color-sky-accent-soft: #E0F0FF;
+
+  /* Typography */
+  --font-display: 'Roboto', 'Arial Black', sans-serif;
+  --font-condensed: 'Roboto Condensed', 'Roboto', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-graphite-800);
+  background: #FFFFFF;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background: var(--color-toyota-500);
+  color: white;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-silver-200); }
+::-webkit-scrollbar-thumb { background: var(--color-graphite-300); }
+::-webkit-scrollbar-thumb:hover { background: var(--color-toyota-500); }
+
+.font-display { font-family: var(--font-display); }
+.font-condensed { font-family: var(--font-condensed); letter-spacing: 0.01em; }
+.font-body { font-family: var(--font-body); }
+
+.text-balance { text-wrap: balance; }
+.text-pretty { text-wrap: pretty; }
+
+/* Toyota diagonal red stripe accent */
+.stripe-red::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 1em;
+  background: var(--color-toyota-500);
+  margin-right: 0.6em;
+  transform: skewX(-15deg);
+  vertical-align: -0.1em;
+}
+
+/* Subtle diagonal grid (dealership/blueprint feel) */
+.grid-lines {
+  background-image:
+    linear-gradient(to right, rgba(18,18,20,0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(18,18,20,0.04) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/* Diagonal dark band */
+.diag-band {
+  background: linear-gradient(105deg, #121214 0%, #1F1F1F 55%, #29292D 100%);
+}
+
+/* Red underline accent */
+.red-underline {
+  position: relative;
+  display: inline-block;
+}
+.red-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 42px;
+  height: 3px;
+  background: var(--color-toyota-500);
+}
+
+/* CTA Button — primary (Toyota red) */
+.btn-toyota {
+  background: var(--color-toyota-500);
+  color: white;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+.btn-toyota:hover {
+  background: var(--color-toyota-600);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px -8px rgba(235,10,30,0.45);
+}
+
+/* Bold section heading pattern */
+.eyebrow {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--color-toyota-500);
+}
+
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes pulse-red {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(235,10,30,0.45); }
+  50% { box-shadow: 0 0 0 10px rgba(235,10,30,0); }
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-slide-in-right { animation: slide-in-right 0.6s ease-out; }
+.animate-pulse-red { animation: pulse-red 2s ease-in-out infinite; }
+.animate-marquee { animation: marquee 45s linear infinite; }
+
+:focus-visible {
+  outline: 2px solid var(--color-toyota-500);
+  outline-offset: 2px;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  .clip-corner {
+    clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
+  }
+  .clip-corner-bl {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  }
+}
