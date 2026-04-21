@@ -44,7 +44,7 @@ export const hero = {
   ctaPrimary: { label: "Explore Fleet", to: "/showroom" },
   ctaSecondary: { label: "Book a Test Drive", to: "/book-test-drive" },
   image:
-    "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1920&q=80",
+    "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=1920&q=80",
   imageAlt: "Toyota 4x4 navigating African bush terrain",
 };
 
@@ -69,11 +69,11 @@ export const vehicles = [
     startingPrice: "$42,500",
     priceDisplay: "From $42,500",
     heroImage:
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=1600&q=80",
     galleryImages: [
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     ],
     description:
       "The Toyota Hilux is the indestructible truck that built Zimbabwe. Whether you're hauling tobacco, climbing mountain passes in Nyanga, or crossing flooded lowveld tracks — the Hilux delivers. Backed by a 5-year warranty and a nationwide service network, it's the pick-up every farmer, contractor and adventurer trusts.",
@@ -101,10 +101,10 @@ export const vehicles = [
     startingPrice: "$64,900",
     priceDisplay: "From $64,900",
     heroImage:
-      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=1600&q=80",
     galleryImages: [
-      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     ],
     description:
       "Built on the legendary Hilux frame, the Fortuner is a family 7-seater that refuses to be left behind. From school runs in Borrowdale to weekend safaris in Hwange — it handles both in comfort. Command-position driving, raised ground clearance and full 4WD capability as standard.",
@@ -131,10 +131,10 @@ export const vehicles = [
     startingPrice: "$148,000",
     priceDisplay: "From $148,000",
     heroImage:
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     galleryImages: [
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1600&q=80",
     ],
     description:
       "Seventy years of 4x4 heritage. The all-new Land Cruiser 300 replaces the legendary 200 with a lighter GA-F platform, twin-turbo V6 diesel, and the most sophisticated off-road tech Toyota has ever built. Multi-terrain Select, crawl control, centre diff-lock — there is simply nowhere it cannot go.",
@@ -161,9 +161,9 @@ export const vehicles = [
     startingPrice: "$94,500",
     priceDisplay: "From $94,500",
     heroImage:
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     galleryImages: [
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     ],
     description:
       "The Prado bridges the gap between daily civility and weekend wildness. More refined than the 300 but with the same Toyota 4x4 DNA — perfect for long-distance safaris, river crossings and school runs alike.",
@@ -190,9 +190,9 @@ export const vehicles = [
     startingPrice: "$48,900",
     priceDisplay: "From $48,900",
     heroImage:
-      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     galleryImages: [
-      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     ],
     description:
       "Fifth-generation RAV4 with available hybrid powertrain — the sweet spot between daily efficiency and weekend escape. Bold, raised stance, refined cabin and Toyota Safety Sense 2.0 as standard.",
@@ -219,9 +219,9 @@ export const vehicles = [
     startingPrice: "$32,800",
     priceDisplay: "From $32,800",
     heroImage:
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1600&q=80",
     galleryImages: [
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1600&q=80",
     ],
     description:
       "Over 50 million Corollas sold worldwide — and Zimbabwe knows why. The 12th-generation Corolla sedan combines sharp styling, excellent efficiency and the Toyota dependability that just keeps going. The fleet champion, the first-car hero.",
@@ -248,9 +248,9 @@ export const vehicles = [
     startingPrice: "$39,500",
     priceDisplay: "From $39,500",
     heroImage:
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     galleryImages: [
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     ],
     description:
       "Raised SUV stance, Corolla reliability, hybrid efficiency. The Corolla Cross is Toyota's smart new compact crossover — priced between the Corolla and the RAV4 and perfect for young families navigating Zimbabwe's mix of smooth and not-so-smooth roads.",
@@ -277,9 +277,9 @@ export const vehicles = [
     startingPrice: "$56,400",
     priceDisplay: "From $56,400",
     heroImage:
-      "https://images.unsplash.com/photo-1570733577524-3a047079e80d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     galleryImages: [
-      "https://images.unsplash.com/photo-1570733577524-3a047079e80d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     ],
     description:
       "From corporate staff shuttles to cross-border logistics, the 6th-generation Hiace sets the commercial standard in Zimbabwe. Semi-bonnet design, more power, more safety and that legendary low total cost of ownership.",
@@ -306,9 +306,9 @@ export const vehicles = [
     startingPrice: "$112,000",
     priceDisplay: "From $112,000",
     heroImage:
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     galleryImages: [
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1600&q=80",
     ],
     description:
       "The benchmark light-duty bus for schools, tourism operators, mining companies and church groups across Zimbabwe. Robust chassis, spacious seating, and the Toyota aftersales network that keeps it earning — every single day.",
@@ -391,7 +391,7 @@ export const services = [
       "Same-day paperwork",
     ],
     image:
-      "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1607603750909-408e193868c7?auto=format&fit=crop&w=1600&q=80",
   },
 ];
 
@@ -478,7 +478,7 @@ export const about = {
     "When you buy a Toyota from us, you're not just buying a vehicle. You're buying into a nationwide network of certified service centres, a parts supply chain that stretches back to Toyota Japan, and a team that will still be here — servicing your Hilux — in twenty years' time.",
   ],
   image:
-    "https://images.unsplash.com/photo-1562778612-e1e0cda9915c?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1504222490345-c075b6008014?auto=format&fit=crop&w=1600&q=80",
   values: [
     {
       icon: "Target",

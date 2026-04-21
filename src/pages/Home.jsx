@@ -319,7 +319,7 @@ export default function Home() {
       <section className="relative py-20 sm:py-28 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1920&q=80"
             alt="Toyota 4x4 in the African bush"
             className="w-full h-full object-cover object-center"
             loading="lazy"

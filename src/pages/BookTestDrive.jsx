@@ -22,7 +22,7 @@ export default function BookTestDrive() {
       <section className="relative bg-graphite-900 text-white overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&w=1920&q=80"
             alt="Toyota test drive"
             className="w-full h-full object-cover object-center opacity-40"
             loading="eager"
